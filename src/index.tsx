@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Cabecalho from './components/cabecalho';
+import EstilosGlobais from './styles/EstilosGlobais';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <EstilosGlobais />
+      <Cabecalho />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
