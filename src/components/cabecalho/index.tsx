@@ -9,6 +9,7 @@ const CabecalhoComponente = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 384px;
 
   @media screen and (min-width: 1024px){
     flex-direction: row;
@@ -42,6 +43,7 @@ const Participante = styled.img`
 
   @media screen and (min-width: 1024px){
     height: 277px;
+    align-self: self-end;
   }
 `;
 
