@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <RecoilRoot>
-        <Cabecalho/>
+        <Cabecalho />
         <Routes>
           <Route index path="/" element={<Configuracao />} />
           <Route path='/sorteio' element={<Sorteio />}/>
