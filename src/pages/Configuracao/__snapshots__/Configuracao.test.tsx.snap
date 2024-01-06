@@ -3,25 +3,25 @@
 exports[`a pagina de configuracao deve ser renderizado corretamente 1`] = `
 <div>
   <div
-    class="sc-bdDqHD dFomCO"
+    class="sc-bdfBQB sKlVi"
   >
     <div
-      class="sc-gtcySc gVSWal"
+      class="sc-gsTEea jlqvQj"
     >
       <h1
-        class="sc-crPhqv cOgWik"
+        class="sc-crrszt ijMlZC"
       >
         Vamos começar!
       </h1>
       <form
-        class="sc-hKVqoC bQoOkO"
+        class="sc-hKgJUU dSJqwS"
       >
         <div
-          class="sc-eCQicT fqsHFG"
+          class="sc-eCstlR eduLfe"
         >
           <svg
             aria-hidden="true"
-            class="StyledIconBase-sc-ea9ulj-0 gqstqG sc-gKkibJ bPPRiP"
+            class="StyledIconBase-sc-ea9ulj-0 fqiNOa sc-gKseQn kinRWy"
             color="var(--darkColor-30)"
             fill="currentColor"
             focusable="false"
@@ -35,14 +35,14 @@ exports[`a pagina de configuracao deve ser renderizado corretamente 1`] = `
             />
           </svg>
           <input
-            class="sc-jSpqns chwRwI"
+            class="sc-jSgvzq ggqNvQ"
             placeholder="Insira o nome dos participantes"
             type="text"
             value=""
           />
         </div>
         <button
-          class="sc-dkXqGt dshXGx"
+          class="sc-dlfnuX fLEobX"
           disabled=""
         >
           Adicionar
@@ -50,18 +50,18 @@ exports[`a pagina de configuracao deve ser renderizado corretamente 1`] = `
         
       </form>
       <ul
-        class="sc-fuzrqj kWhhfn"
+        class="sc-fubCzh eGClEl"
       />
       <footer
-        class="sc-jrICMi cNwccD"
+        class="sc-jrAFXE hALOEl"
       >
         <button
-          class="sc-dkXqGt kBpyYS"
+          class="sc-dlfnuX hRHjcE"
           disabled=""
         >
           <svg
             aria-hidden="true"
-            class="StyledIconBase-sc-ea9ulj-0 gqstqG sc-iqkjvU kqqEJz"
+            class="StyledIconBase-sc-ea9ulj-0 fqiNOa sc-iqHYmW kUFFvA"
             color="var(--brightestColor)"
             fill="currentColor"
             focusable="false"
@@ -79,7 +79,7 @@ exports[`a pagina de configuracao deve ser renderizado corretamente 1`] = `
         </button>
         <img
           alt="#"
-          class="sc-kEbfcl gtSdmk"
+          class="sc-kEjbQP cWEpVE"
           src="sacolas.png"
         />
       </footer>

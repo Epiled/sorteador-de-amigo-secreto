@@ -4,6 +4,7 @@ import { useListaDeParticipantes } from "../../state/hooks/useListaDeParticipant
 import { useResultadoSorteio } from "../../state/hooks/useResultadoSorteio"
 
 import Sorteio from "./Sorteio"
+import { act } from "react-dom/test-utils"
 
 jest.mock('../../state/hooks/useListaDeParticipantes', () => {
   return {
@@ -35,7 +36,7 @@ describe('na pagina de sorteio', () => {
     (useResultadoSorteio as jest.Mock).mockReturnValue(resultado);
   })
 
-  test('todos os participntes oidem exibir o seu amigo secreto', () => {
+  test('todos os participantes sem exibir o seu amigo secreto', () => {
     render(
       <RecoilRoot>
         <Sorteio />
@@ -48,6 +49,8 @@ describe('na pagina de sorteio', () => {
   })
 
   test('o amigo secreto é exibido quando solicitado', () => {
+    jest.useFakeTimers()
+
     render(
       <RecoilRoot>
         <Sorteio />
@@ -66,8 +69,15 @@ describe('na pagina de sorteio', () => {
 
     fireEvent.click(botao);
 
-    const amigoSecreto = screen.getByRole('alert')
-
+    let amigoSecreto = screen.getByRole('alert')
     expect(amigoSecreto).toBeInTheDocument()
+
+    // a mensagem deve sumir após N segundos
+    act(() => {
+      /* fire events that update state */
+      jest.runAllTimers()
+    });
+
+    expect(amigoSecreto).not.toBeInTheDocument()
   })
 })

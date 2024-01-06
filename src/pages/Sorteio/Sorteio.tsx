@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useListaDeParticipantes } from "../../state/hooks/useListaDeParticipantes";
 import { useResultadoSorteio } from "../../state/hooks/useResultadoSorteio";
 import Botao from "../../components/Botao";
@@ -93,6 +93,9 @@ const Sorteio: React.FC = () => {
     evento.preventDefault();
     if (resultado.has(participanteDaVez)) {
       setAmigoSecreto(resultado.get(participanteDaVez)!)
+      setTimeout(() => {
+        setAmigoSecreto('')
+      }, 5000)
     }
   }
 

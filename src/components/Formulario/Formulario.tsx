@@ -17,6 +17,7 @@ const FormularioEstilizado = styled.form`
     gap: 0px;
   }
 `
+
 const InputContainer = styled.div`
   position: relative;
   width: 100%;
