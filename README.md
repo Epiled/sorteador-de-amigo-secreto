@@ -15,7 +15,7 @@ Projeto do curso <a href="https://cursos.alura.com.br/course/react-testando-comp
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
-Aplicação React que permite registrar e sortear partcipantes para um sorteio de amigo secreto, foi contruida atráves de TDD em Jest.
+Aplicação React que permite registrar e sortear participantes para um sorteio de amigo secreto, foi construída através de TDD em Jest.
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/sorteador-de-amigo-secreto?style=for-the-badge)
 ![Badge](https://img.shields.io/github/languages/code-size/Epiled/sorteador-de-amigo-secreto?style=for-the-badge)
